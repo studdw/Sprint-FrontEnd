@@ -1,0 +1,28 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #0a2540;
+  color: white;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+button {
+  padding: 10px;
+  background: green;
+  color: white;
+  border: none;
+}
