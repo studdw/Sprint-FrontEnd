@@ -93,3 +93,61 @@ footer {
   padding: 15px;
   margin-top: 40px;
 }
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Tablet (até 768px) */
+@media (max-width: 768px) {
+  main {
+    padding: 15px;
+  }
+
+  input, textarea {
+    width: 100%;
+  }
+}
+
+/* Mobile (até 480px) */
+@media (max-width: 480px) {
+  header {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1.4rem;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  nav a {
+    margin-right: 0;
+    font-size: 0.9rem;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  li img {
+    width: 90px;
+    height: 90px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
